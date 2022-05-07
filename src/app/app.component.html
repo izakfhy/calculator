@@ -1,0 +1,20 @@
+<div class="cont">
+  <label>First Number</label>
+  <input type="number" [(ngModel)]="first"/>
+  <br>
+  
+  <label>Second Number</label>
+  <input type="number" [(ngModel)]="second"/>
+  <br>
+  
+  <button (click)="Submit('Add')">
+    Add
+  </button>
+  <button (click)="Submit('Subtract')">
+    Subtract
+  </button>
+
+  <br><br>
+  <label>Result: </label>
+  <p>{{message}}</p>
+</div>
