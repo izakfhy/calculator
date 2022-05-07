@@ -1,5 +1,12 @@
 # Calculator
 
+Steps to run and deploy:
+1) npm install
+2) npm run build_deploy
+
+To run unit tests for backend:
+1) npm run test-be
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
 
 ## Development server
